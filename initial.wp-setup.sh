@@ -54,11 +54,11 @@ if [ ! -d /var/www/vhosts/${INSTANCEID} ]; then
 fi
 echo '<html>
 <head>
-<title>Setting up your WordPress now.</title>
+<title>AMIMOTO - Installing WordPress</title>
 </head>
 <body>
-<p>Setting up your WordPress now.</p>
-<p>After a while please reload your web browser.</p>
+<p>Installing and configuring WordPress...</p>
+<p>Please wait and refresh your browser.</p>
 </body>' > /var/www/vhosts/${INSTANCEID}/index.html
 
 if [ "t1.micro" != "${INSTANCETYPE}" ]; then
